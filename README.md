@@ -1,4 +1,4 @@
-# 🚀 Full-Stack CRM (Customer Relationship Management) & Project Management Platform
+# 🚀 AI-Driven Full-Stack CRM (Customer Relationship Management) & Project Management Platform
 
 ![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
 ![Django](https://img.shields.io/badge/Django-5.0+-green.svg)
@@ -9,7 +9,7 @@
 
 *Developed by Mostafa Anwar*
 
-An enterprise-grade, multi-tenant full-stack CRM (Customer Relationship Management) and Project Management platform powered by AI. Manage customers, projects, tasks, and sales pipelines with intelligent automation, predictive analytics, and real-time collaboration features.
+An enterprise-grade, multi-tenant AI-driven full-stack CRM (Customer Relationship Management) and Project Management platform with intelligent automation, predictive analytics, and machine learning capabilities. Manage customers, projects, tasks, and sales pipelines with intelligent automation, predictive analytics, and real-time collaboration features.
 
 ## 🎯 Key Features
 
