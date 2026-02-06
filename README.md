@@ -13,7 +13,7 @@
 
 *Developed by Mostafa Anwar*
 
-[Features](#features) • [Demo](#demo) • [Installation](#installation) • [Usage](#usage) • [Technologies](#technologies-used) • [Author](#author)
+[Features](#features) • [AI Models](#ai-models--algorithms) • [Installation](#installation) • [Usage](#usage) • [Technologies](#technologies-used) • [Author](#author)
 
 </div>
 
@@ -23,7 +23,6 @@
 
 - [Overview](#overview)
 - [Features](#features)
-- [Demo](#demo)
 - [AI Models & Algorithms](#ai-models--algorithms)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -89,35 +88,7 @@ An enterprise-grade, multi-tenant AI-driven full-stack CRM (Customer Relationshi
 
 ---
 
-## 🎬 Demo
-
-### CRM Dashboard & Architecture
-
-<div align="center">
-  <img src="taiga/base/static/emails/logo-color.png" alt="CRM Platform Logo" width="300"/>
-  <p><i>Enterprise CRM with AI-powered lead scoring and sales pipeline management</i></p>
-  
-  <img src="taiga/base/static/emails/top-bg-hero.png" alt="Platform Interface" width="700"/>
-  <p><i>Modern CRM interface with real-time collaboration</i></p>
-  
-  <p><b>System Architecture:</b></p>
-  <p>🏗️ Multi-tenant PostgreSQL • 🔄 Redis & Celery Queue • 🤖 TensorFlow AI Engine</p>
-  <p>📊 Multi-tenant architecture • 🤖 AI lead scoring • 📈 Sales forecasting • 🎯 Agile boards</p>
-  
-  <p><b>Note:</b> This is a production-ready multi-tenant SaaS platform</p>
-</div>
-
-### Key Features in Action
-
-- 📊 **AI lead scoring** with 87% accuracy
-- 📈 **Sales forecasting** with time-series models
-- 🎯 **Agile boards** for project management
-- 💬 **Real-time collaboration** with WebSockets
-- 📧 **Email integration** with Gmail and Outlook
-
----
-
-## 🎓 AI Models & Algorithms
+##  AI Models & Algorithms
 
 ### 1. Lead Scoring Model
 - **Algorithm**: Random Forest Classifier
