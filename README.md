@@ -94,7 +94,12 @@ An enterprise-grade, multi-tenant AI-driven full-stack CRM (Customer Relationshi
 ### CRM Dashboard
 
 <div align="center">
+  <img src="taiga/base/static/emails/logo-color.png" alt="CRM Platform Logo" width="300"/>
   <p><i>Enterprise CRM with AI-powered lead scoring and sales pipeline management</i></p>
+  
+  <p><b>Key Features:</b></p>
+  <p>📊 Multi-tenant architecture • 🤖 AI lead scoring • 📈 Sales forecasting • 🎯 Agile boards</p>
+  
   <p><b>Note:</b> This is a production-ready multi-tenant SaaS platform</p>
 </div>
 
