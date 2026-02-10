@@ -152,7 +152,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Mostafa Anwar Sagor**
 
 *   [GitHub Profile](https://github.com/Mostafa-Anwar-Sagor)
-*   [LinkedIn Profile](https://www.linkedin.com/in/mostafa-anwar-sagor/)
+*   [LinkedIn Profile](https://www.linkedin.com/in/mostafa-anwar-3ab665350/)
 
 ---
 Made with ❤️ by Mostafa Anwar Sagor
