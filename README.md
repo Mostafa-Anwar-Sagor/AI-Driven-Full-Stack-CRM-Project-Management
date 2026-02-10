@@ -146,3 +146,13 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👤 Author
+
+**Mostafa Anwar Sagor**
+
+*   [GitHub Profile](https://github.com/Mostafa-Anwar-Sagor)
+*   [LinkedIn Profile](https://www.linkedin.com/in/mostafa-anwar-sagor/)
+
+---
+Made with ❤️ by Mostafa Anwar Sagor
