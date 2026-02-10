@@ -1,0 +1,218 @@
+.ai-overview-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-bottom: 28px;
+}
+
+.ai-overview-stat {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: 22px;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.ai-overview-stat:hover {
+    border-color: var(--border-hover);
+    transform: translateY(-2px);
+}
+
+.ai-overview-stat i {
+    font-size: 1.4rem;
+    color: var(--accent);
+    margin-bottom: 8px;
+}
+
+.ai-stat-value {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 2px;
+}
+
+.ai-stat-label {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+.ai-status-badge {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: #10b981;
+    padding: 8px 16px;
+    background: rgba(16, 185, 129, 0.08);
+    border: 1px solid rgba(16, 185, 129, 0.2);
+    border-radius: var(--radius-sm);
+}
+
+.pulse-dot {
+    width: 8px;
+    height: 8px;
+    background: #10b981;
+    border-radius: 50%;
+    animation: blink 2s ease-in-out infinite;
+}
+
+.ai-models-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    gap: 20px;
+}
+
+.ai-model-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    padding: 24px;
+    transition: var(--transition);
+}
+
+.ai-model-card:hover {
+    border-color: var(--border-hover);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), 0 0 20px color-mix(in srgb, var(--model-color) 10%, transparent);
+}
+
+.model-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+
+.model-icon {
+    width: 46px;
+    height: 46px;
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.model-status {
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.model-status.active {
+    color: #10b981;
+}
+
+.model-status.training {
+    color: #f59e0b;
+}
+
+.ai-model-card h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.ai-model-card .model-algo {
+    display: block;
+    font-size: 0.78rem;
+    color: var(--accent);
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.model-desc {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+    margin-bottom: 18px;
+}
+
+.model-metrics {
+    margin-bottom: 16px;
+}
+
+.metric {
+    margin-bottom: 10px;
+}
+
+.metric-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    font-size: 0.72rem;
+}
+
+.metric-header span:first-child {
+    color: var(--text-secondary);
+}
+
+.metric-header span:last-child {
+    font-weight: 700;
+}
+
+.metric-bar {
+    height: 4px;
+    background: rgba(99, 102, 241, 0.08);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.metric-fill {
+    height: 100%;
+    border-radius: 4px;
+    transition: width 1.5s ease;
+    animation: growBar 1.5s ease forwards;
+}
+
+.model-features {
+    margin-bottom: 16px;
+}
+
+.model-features h4 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.features-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.feature-tag {
+    font-size: 0.68rem;
+    padding: 3px 10px;
+    border-radius: 6px;
+    background: var(--bg-tertiary);
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+.model-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 14px;
+    border-top: 1px solid var(--border-color);
+    font-size: 0.72rem;
+    color: var(--text-muted);
+}
+
+.model-footer i {
+    margin-right: 4px;
+}
+
+@media (max-width: 900px) {
+    .ai-overview-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .ai-models-grid {
+        grid-template-columns: 1fr;
+    }
+}
