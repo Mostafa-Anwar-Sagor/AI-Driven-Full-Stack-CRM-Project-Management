@@ -29,17 +29,58 @@ A powerful, AI-driven SaaS CRM and Project Management platform designed to strea
 
 <!-- Add your screenshots here -->
 <div align="center">
-  <img src="screenshots/dashboard.png" alt="Dashboard" width="800"/>
+  <h3>📊 Dashboard & Analytics</h3>
+  <img src="screenshots/dashboards.png" alt="Dashboard Overview" width="800"/>
   <br/>
-  <em>Dashboard View</em>
+  <em>Start your day with a comprehensive overview of your business metrics.</em>
+  <br/><br/>
+  
+  <img src="screenshots/analytics.png" alt="Advanced Analytics" width="800"/>
+  <br/>
+  <em>Deep dive into data with our advanced analytics tools.</em>
+  <br/><br/>
+
+  <img src="screenshots/ai_insight.png" alt="AI Insights" width="800"/>
+  <br/>
+  <em>Leverage AI to get actionable insights and predictions.</em>
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="screenshots/kanban.png" alt="Kanban Board" width="800"/>
+  <h3>📅 Project Management</h3>
+  <img src="screenshots/projects.png" alt="Projects Overview" width="800"/>
   <br/>
-  <em>Project Kanban Board</em>
+  <em>Manage all your projects in one centralized view.</em>
+  <br/><br/>
+
+  <img src="screenshots/kanban_board.png" alt="Kanban Board" width="800"/>
+  <br/>
+  <em>Track progress visually with our intuitive Kanban boards.</em>
+</div>
+
+<br/>
+
+<div align="center">
+  <h3>🌐 Core Platform</h3>
+  <img src="screenshots/home.png" alt="Home Page" width="800"/>
+  <br/>
+  <em>A welcoming and informative landing page for your users.</em>
+  <br/><br/>
+
+  <img src="screenshots/features_page.png" alt="Features Page" width="800"/>
+  <br/>
+  <em>Explore the powerful features that drive your business forward.</em>
+  <br/><br/>
+
+  <img src="screenshots/solutions_page.png" alt="Solutions Page" width="800"/>
+  <br/>
+  <em>Tailored solutions to meet your specific industry needs.</em>
+  <br/><br/>
+
+  <img src="screenshots/pricing_page.png" alt="Pricing Page" width="800"/>
+  <br/>
+  <em>Transparent and flexible pricing plans for every stage of growth.</em>
 </div>
 
 ## 🔧 Installation & Setup
